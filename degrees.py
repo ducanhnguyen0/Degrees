@@ -126,8 +126,8 @@ def shortest_path(source, target):
             # If person is the target then we return solution
             if person == target:
 
-                # Set variable path to contain all the connection
-                path = []
+                # Set variable path to contain the connection
+                path = [(movie, person)]
 
                 # Loop the the path bottom-up from the target back to the source
                 while node.parent is not None:
@@ -152,8 +152,6 @@ def shortest_path(source, target):
 
                 # Add to frontier
                 frontier.add(child)
-
-
 
 
 def person_id_for_name(name):
