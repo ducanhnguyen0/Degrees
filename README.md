@@ -1,6 +1,6 @@
 # Degrees: A "Six Degrees of Kevin Bacon" game AI
 
-Harvard CS50AI Project\
+Harvard CS50AI Project
 
 ## Description:
 
