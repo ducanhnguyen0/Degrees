@@ -30,4 +30,4 @@ The function returns the shortest path from the person with id source to the per
    ```
    python degrees.py 'dataset file'
    ```
-   (dataset file is either small or large)
+   (You can use either `small` or `large` for the dataset file)
